@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+<body>
+
+  <div id="auth-div">
+      <div class="text-input" id="auth-text"></div>
+      <div class="text-input"> Token: <input type="text" id="seshtoken"></div>
+      <div class="submit-button text-input" id="submit-auth">Submit</div>
+  </div>
+
+  <div id="scrobble-div" hidden>
+      <div class="text-input"> Name: <input type="text" id="songname"></div>
+      <div class="text-input"> Artist: <input type="text" id="artistname"></div>
+      <table>
+        <td>
+          <div class="submit-button text-input" id="submit-scrobble">Scrobble</div>
+        </td>
+        <td>
+          <div class="submit-button text-input" id="submit-search">Search</div>
+        </td>
+        <td>
+          <div class="submit-button text-input" id="submit-clear">Clear</div>
+      </td>
+      </table>
+  </div>
+  
+  
+  <div class="circle-loader" style="display:none">
+    <div class="checkmark draw" style="display:none"></div>
+  </div>
+
+  <div id="search-results-div" hidden>
+    <table id="search-results-table" class="table-border">
+
+    </table>
+  </div>
+
+
+  <script src="bundle.js"></script>
+</body>
+
+</html>

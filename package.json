@@ -1,0 +1,23 @@
+{
+  "name": "firefoxmanualscrobbler",
+  "version": "1.0.0",
+  "description": "manual lastfm scrobbler extension for firefox",
+  "main": "popup/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "browserify popup/index.js -o popup/bundle.js & sass popup/styles.scss popup/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadur604/FirefoxManualScrobbler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dadur604/FirefoxManualScrobbler/issues"
+  },
+  "homepage": "https://github.com/dadur604/FirefoxManualScrobbler#readme",
+  "dependencies": {
+    "lastfmapi": "^0.1.1"
+  }
+}
