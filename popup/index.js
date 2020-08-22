@@ -5,11 +5,11 @@ var lfm = new LastfmApi({
 	'secret' : '2288df1e306518f149ff33c785f15ca0'
 })
 
-window.addEventListener('click',function(e){
-  if(e.target.href!==undefined){
-    chrome.tabs.create({url:e.target.href})
-  }
-})
+// window.addEventListener('click',function(e){
+  // if(e.target.href!==undefined){
+    // chrome.tabs.create({url:e.target.href})
+  // }
+// })
 
 checkCredentials()
 
