@@ -17,11 +17,9 @@
 	
 	"permissions": [
     "tabs",
-    "declarativeContent",
 	"webRequest",
-	"webRequestBlocking",
 	"storage",
-	"<all_urls>"
+	"activeTab"
   ]
 
 }
