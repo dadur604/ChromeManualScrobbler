@@ -1,2 +1,2 @@
-# FirefoxManualScrobbler
-A manual last.fm scrobbler extension for firefox
+# ChromeManualScrobbler
+A manual last.fm scrobbler extension for Google Chrome
